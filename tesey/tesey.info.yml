@@ -1,0 +1,17 @@
+name: tesey
+type: theme
+base theme: bootstrap
+description: theme for tesey.
+core: 8.x
+libraries:
+  - tesey/global-styling-and-scripts
+regions:
+  header: Header
+  content: Main
+  footer: Footer
+
+libraries-override:
+  classy/base: false
+  system/base: false
+  system/drupal.system: false
+  views/views.module: false
